@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>wph奇妙网站</title>
+
+<!-- 我们先进行样式初始化 -->
+
+<style>
+
+*{
+
+margin: 0;
+
+padding: 0;
+
+text-decoration: none;
+
+list-style: none;
+
+}
+
+.main{
+
+max-width: 800px;/* 让整个网页只有800宽 */
+
+margin: auto;/* 让它水平居中 */
+
+}
+
+.header,.nav,.container,.footer{
+
+/* 这四个盒子都要左浮动 */
+
+float: left;
+
+/* 让它们满浏览器 */
+
+width: 100%;
+
+/* 内边距会影响整个盒子的实际大小，这里有一种方法可以处理，让它不影响 */
+
+box-sizing: border-box;/* 就是这句 */
+
+}
+
+.header{
+
+background: #00f7ff;
+
+padding: 20px;
+
+text-align: center;
+
+}
+
+.nav{
+
+background: #ff9c39;
+
+}
+
+.nav a{
+
+color: #fff;
+
+padding: 10px 20px;
+
+display: inline-block;/* 让链接以块的形式显示 */
+
+}
+
+.nav a:hover{
+
+background: #bbb;
+
+color:#000000 ;
+
+}
+
+/* 所以中间栏要加左右边距 */
+
+.content{
+
+padding: 5px;
+
+box-sizing: border-box;/* 去掉内边距影响 */
+
+}
+
+.footer{
+
+padding: 10px;
+
+background: #07ffd2;
+
+text-align: center;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="main">
+
+<div class="header">
+
+<h1>欢迎来到wph的奇妙网站</h1>
+
+<p>如果看到这个网页说明GitHub给力了</p>
+
+</div>
+
+<div class="nav">
+
+<a href="picture.html">回到图床页面</a>
+
+</div>
+
+<div class="container">
+
+<div class="content">
+
+<h2>clock paradox</h2>
+
+<img src="C:\Users\wph\Desktop\wph网页\clock paradox.jpg" alt="clock paradox">
+
+</div>
+
+<div class="footer">
+
+<p>此图为测试作用<br>如有侵权可联系删除</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html> 
